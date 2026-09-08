@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+/* nawigacja */
+nav {
+	position: sticky;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	background-color: #ddd;
+	text-align: center;
+	z-index: 10;
+}
+.burger-icon {
+	display: block;
+	margin-right: auto;
+	padding: 0 30px;
+	line-height: 60px;
+	font-size: 30px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.burger-icon:active {
+	font-size: 28px;
+	transform: translateX(-1px);
+}
+/* [Tu można byłoby zrobić, aby ta ikona "bars" rzeczywiście działała i aby się rozwijało menu boczne (nawigacja boczna) na telefonach.] */
+.nav-items {
+	display: none;
+}
+.fa-house {
+	color: rgb(255, 145, 0);
+}
+/* header */
+.header {
+	position: relative;
+	height: 330px;
+	background-image: url('../img/wolves-1341881_1280px.jpg');
+	background-size: cover;
+	background-position: 50% 43%;
+}
+.hero-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(3, 24, 52, 0.4);
+}
+.hero-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	cursor: default;
+}
+.hero-text h1 {
+	margin-bottom: 5px;
+	text-shadow: 3px 3px 6px #000;
+	color: rgb(82, 183, 255);
+	transition: 0.5s;
+}
+.hero-text h1:hover {
+	transform: scale(1.7);
+	margin: 30px;
+	cursor: default;
+}
+.hero-text p {
+	font-size: 14px;
+}
+.hero-text span {
+	text-transform: uppercase;
+	color: rgb(255, 145, 0);
+}
+
+/* main */
+main {
+	margin: 60px 0;
+}
+section {
+	scroll-margin-top: 70px;
+}
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.about-us-info {
+	margin-bottom: 10px;
+	padding: 0 20px;
+	font-size: 16px;
+}
+.bold-text {
+	font-weight: bold;
+}
+.products {
+	margin: 60px auto;
+}
+.product {
+	position: relative;
+	margin-bottom: 10px;
+	height: 350px;
+	background-size: cover;
+	text-align: center;
+}
+.product h3 {
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+.product p {
+	transition: 0.4s;
+}
+.product-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(30, 39, 52, 0.5);
+	transition: 0.4s;
+}
+.product-bg:hover {
+	background-color: rgba(30, 39, 52, 0.1);
+}
+.product h3:hover {
+	margin: 30px;
+	transform: scale(1.7);
+	cursor: default;
+}
+.product h3:hover + p {
+	transform: scale(1.4);
+}
+.first-product {
+	background-image: url('../img/children-593313_1920px.jpg');
+	background-position: 50% 27%;
+	margin-right: 10px;
+}
+.second-product {
+	background-image: url('../img/keyboard-70506_1920px.jpg');
+	background-position: 50% 35%;
+	margin-right: 10px;
+}
+.third-product {
+	background-image: url('../img/woman-1851464_1920px.jpg');
+	background-position: 50% 30%;
+}
+.fourth-product {
+	background-image: url('../img/laptop-1483974_1920px.jpg');
+	background-position: 50% 84%;
+}
+.fifth-product {
+	background-image: url('../img/nature-1001679_1920px.jpg');
+	background-position: 50% 50%;
+	margin-right: 10px;
+}
+.sixth-product {
+	background-image: url('../img/cat-5331883_1920px.jpg');
+	background-position: 50% 39%;
+}
+.contact {
+	text-align: center;
+}
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
+.contact i {
+	color: rgb(255, 145, 0);
+}
+
+.audio {
+	margin-top: -50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/* footer */
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+	.burger-icon {
+		display: none;
+	}
+	.nav-items {
+		display: block;
+	}
+	.nav-items a {
+		padding: 0 40px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 20px;
+		color: #333;
+		transition: 0.3s;
+	}
+	.nav-items a:hover {
+		color: rgb(255, 145, 0);
+		text-shadow: 0px 1px 6px rgb(0, 99, 191);
+	}
+	.header {
+		position: relative;
+		height: 400px;
+		background-image: url('../img/wolves-1341881_4096px.jpg');
+	}
+	.hero-text h1 {
+		font-size: 46px;
+	}
+	.hero-text p {
+		font-size: 17px;
+	}
+	.product h3 {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 1720px) {
+	.products-box {
+		font-size: 0;
+	}
+
+	.product {
+		display: inline-block;
+		width: 49.71%; /*(gdyby nie było moich marginesów i byłoby bez przerw, to by tu mogło być równe 50%)*/
+	}
+	.about-us-info {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.hero-text h1 {
+		font-size: 60px;
+	}
+	.hero-text p {
+		font-size: 19px;
+	}
+}

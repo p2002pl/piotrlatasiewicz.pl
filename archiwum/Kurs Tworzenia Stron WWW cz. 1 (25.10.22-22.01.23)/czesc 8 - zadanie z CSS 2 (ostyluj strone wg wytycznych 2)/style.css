@@ -1,0 +1,23 @@
+body {
+	background-color: #333;
+	color: white;
+	font-family: Comfortaa, sans-serif;
+	font-size: 36px;
+}
+
+img {
+	width: 800px;
+	border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-bold-lime {
+	color: lime;
+	font-weight: bold;
+}
+
+.text-underlined-tomato {
+	text-decoration: underline;
+	color: tomato;
+}

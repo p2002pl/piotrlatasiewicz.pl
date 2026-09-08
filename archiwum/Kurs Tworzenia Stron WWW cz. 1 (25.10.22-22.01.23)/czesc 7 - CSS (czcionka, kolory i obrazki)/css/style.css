@@ -1,0 +1,110 @@
+body {
+	margin: 20px;
+	font-size: 36px;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	background-color: #333;
+	color: white;
+}
+
+.left {
+	text-align-last: left;
+	color: rgb(0, 115, 255);
+}
+.center {
+	text-align-last: center;
+	color: purple;
+}
+.right {
+	text-align-last: right;
+	color: rgb(255, 0, 0);
+}
+.justify {
+	text-align: justify;
+	color: yellow;
+}
+.underline {
+	text-decoration: underline;
+	color: orange;
+}
+.line-through {
+	text-decoration: line-through;
+	color: orange;
+}
+a {
+	color: chartreuse;
+	text-decoration: none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.letter-spacing {
+	letter-spacing: 15px;
+}
+.word-spacing {
+	word-spacing: 30px;
+}
+.line-height {
+	line-height: 200px;
+}
+.text-shadow {
+	text-shadow: 10px 10px 5px black;
+}
+.small-text {
+	font-size: 25px;
+}
+div {
+	width: 500px;
+	height: 200px;
+}
+
+.color-1 {
+	background-color: rgb(255, 255, 255);
+}
+.color-2 {
+	background-color: rgb(0, 0, 0);
+}
+.color-3 {
+	background-color: red;
+}
+.color-4 {
+	background-color: rgb(255, 0, 0);
+}
+.color-5 {
+	background-color: #ff0000;
+}
+.color-6 {
+	background-color: hsl(0, 100%, 50%);
+}
+.color-7 {
+	background-color: blue;
+}
+.color-8 {
+	background-color: yellow;
+}
+.color-9 {
+	background-color: lime;
+}
+.color-10 {
+	background-color: orange;
+}
+.color-11 {
+	background-color: deeppink;
+}
+.color-12 {
+	background-color: cyan;
+}
+.color-13 {
+	background-color: purple;
+}
+img {
+	width: 700px;
+	border-radius: 50%;
+}
+

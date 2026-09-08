@@ -1,0 +1,42 @@
+/* komentarz: ten kod i plik CSS nie jest stworzony przeze mnie */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 40px;
+	font-size: 30px;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #045de9;
+	background-image: linear-gradient(315deg, #04e967 0%, #09a9f9 74%);
+}
+
+table {
+	border-spacing: 0;
+}
+
+table,
+td,
+th {
+	border: 1px solid black;
+}
+
+td,
+th {
+	padding: 5px 20px;
+}
+
+thead {
+	background-color: tomato;
+}
+
+tbody {
+	background-color: #fff;
+}
+
+tfoot {
+	background-color: royalblue;
+}

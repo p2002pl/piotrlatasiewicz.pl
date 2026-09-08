@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #333;
+	font-size: 36px;
+	background-image: url('cat-1605131.png'), linear-gradient(#0652c5, #d4418e);
+	width: 98vw;
+	height: 250vh;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: contain;
+	background-attachment: fixed;
+}
+.text-up {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.text-down {
+	position: absolute;
+	top: 200%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

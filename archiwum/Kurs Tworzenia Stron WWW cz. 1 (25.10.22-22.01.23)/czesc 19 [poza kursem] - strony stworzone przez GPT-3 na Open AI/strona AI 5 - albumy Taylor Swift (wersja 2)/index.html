@@ -1,0 +1,95 @@
+<!-- Stwórz stronę internetową za pomocą HTML i CSS, która będzie zawierać: tabelkę ze wszystkimi albumami Taylor Swift, z datami ich wydania i z tytułami singli z danego albumu oraz tło z niebiesko-różowo-żółtym radialnym gradientem oraz napis "Ta strona internetowa została stworzona przez sztuczną inteligencję." -->
+
+<!-- (link do tego polecenia: https://beta.openai.com/playground/p/SSDXT6ZzoR0BHhsFWBqgNip7?model=text-davinci-003) -->
+
+<!-- (wersja 2) -->
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Taylor Swift Albums</title>
+    <style type="text/css">
+        html {
+            background: radial-gradient(circle, #46B3FF, #F5A7F5, #FFE14A);
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 5px;
+            font-size: 36px;
+            color: #46B3FF;
+        }
+
+        #message {
+            text-align: center;
+            margin: 10px;
+            font-size: 18px;
+            color: #FFE14A;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Taylor Swift Albums</h1>
+    <table>
+        <tr>
+            <th>Album</th>
+            <th>Data wydania</th>
+            <th>Singiel</th>
+        </tr>
+        <tr>
+            <td>Taylor Swift</td>
+            <td>24 października 2006</td>
+            <td>Tim McGraw</td>
+        </tr>
+        <tr>
+            <td>Fearless</td>
+            <td>11 listopada 2008</td>
+            <td>Love Story</td>
+        </tr>
+        <tr>
+            <td>Speak Now</td>
+            <td>25 października 2010</td>
+            <td>Mine</td>
+        </tr>
+        <tr>
+            <td>Red</td>
+            <td>22 października 2012</td>
+            <td>We Are Never Ever Getting Back Together</td>
+        </tr>
+        <tr>
+            <td>1989</td>
+            <td>27 października 2014</td>
+            <td>Shake It Off</td>
+        </tr>
+        <tr>
+            <td>Reputation</td>
+            <td>10 listopada 2017</td>
+            <td>Look What You Made Me Do</td>
+        </tr>
+        <tr>
+            <td>Lover</td>
+            <td>23 sierpnia 2019</td>
+            <td>ME!</td>
+        </tr>
+    </table>
+    <p id="message">Ta strona internetowa została stworzona przez sztuczną inteligencję.</p>
+</body>
+
+</html>

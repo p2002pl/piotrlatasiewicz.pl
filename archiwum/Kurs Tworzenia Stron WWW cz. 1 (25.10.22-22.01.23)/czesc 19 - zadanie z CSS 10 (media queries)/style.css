@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	background-color: #333;
+	font-size: 36px;
+	height: 100vh;
+}
+.square {
+	height: 300px;
+	width: 300px;
+	background-color: gold;
+}
+
+@media (min-width: 600px) {
+	.square {
+		background-color: rgb(231, 47, 231);
+	}
+}
+@media (min-width: 800px) {
+	.square {
+		background-color: royalblue;
+	}
+}
+@media (min-width: 1000px) {
+	.square {
+		background-color: rgb(25, 230, 25);
+	}
+}
+@media (min-width: 1300px) {
+	.square {
+		background-color: rgb(244, 177, 7);
+	}
+}
+@media (min-width: 1100px) {
+	body {
+		background-image: linear-gradient(#020024, #093eb1, #00d4ff);
+	}
+}
+@media (min-width: 850px) and (max-width: 1150px) {
+	.square {
+		width: 500px;
+	}
+}
+p {
+	display: none;
+}
+@media (min-width: 1350px) {
+	p {
+		display: block;
+	}
+}

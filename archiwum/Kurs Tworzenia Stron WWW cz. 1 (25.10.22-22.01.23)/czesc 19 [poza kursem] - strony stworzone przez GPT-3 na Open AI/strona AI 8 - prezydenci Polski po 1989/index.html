@@ -1,0 +1,72 @@
+<!-- Stwórz stronę internetową z listą w tabeli ze wszystkimi prezydentami Polski po 1989 roku wraz z datami ich urzędowania,
+w tle ma być biało-czerwony pionowy gradient.
+
+Treść strony ma być wyśrodkowana, tabela ma mieć czarne obramowanie.
+
+Tabela ma być wyśrodkowana na stronie, ma mieć czarne obramowanie wewnętrzne i zewnętrzne i tekst w tabeli ma mieć większą czcionkę.
+
+Do tabeli na górze ma być dodany jeszcze Wojciech Jaruzelski. -->
+
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #FFF 0%, #F00 100%);
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid #000;
+            margin: 0 auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            font-size: larger;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Prezydenci Polski Po 1989</h1>
+    <table>
+        <tr>
+            <th>Prezydent</th>
+            <th>Data Urzędowania</th>
+        </tr>
+        <tr>
+            <td>Wojciech Jaruzelski</td>
+            <td>1989-1990</td>
+        </tr>
+        <tr>
+            <td>Lech Wałęsa</td>
+            <td>1990-1995</td>
+        </tr>
+        <tr>
+            <td>Aleksander Kwaśniewski</td>
+            <td>1995-2005</td>
+        </tr>
+        <tr>
+            <td>Lech Kaczyński</td>
+            <td>2005-2010</td>
+        </tr>
+        <tr>
+            <td>Bronisław Komorowski</td>
+            <td>2010-2015</td>
+        </tr>
+        <tr>
+            <td>Andrzej Duda</td>
+            <td>2015-obecnie</td>
+        </tr>
+    </table>
+</body>
+
+</html>

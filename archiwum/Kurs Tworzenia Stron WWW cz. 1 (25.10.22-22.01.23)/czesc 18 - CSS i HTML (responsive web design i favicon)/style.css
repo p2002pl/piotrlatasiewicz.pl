@@ -1,0 +1,39 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #333;
+	font-size: 32px;
+	color: white;
+}
+
+.text-up {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.text-down {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: orange;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+	body {
+		background-color: rgb(128, 12, 177);
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	body {
+		background-color: rgb(32, 140, 45);
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		background-color: rgb(58, 144, 215);
+	}
+}

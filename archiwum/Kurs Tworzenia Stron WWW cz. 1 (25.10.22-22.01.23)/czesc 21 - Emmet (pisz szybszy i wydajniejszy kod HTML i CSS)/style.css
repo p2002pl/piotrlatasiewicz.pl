@@ -1,0 +1,64 @@
+p {
+	/* m10 */
+	margin: 10px;
+
+	/* m10-20 */
+	margin: 10px 20px;
+
+	/* p-10--20 */
+	padding: -10px -20px;
+
+	/* m10p */
+	margin: 10%;
+
+	/* fz20 */
+	font-size: 20px;
+
+	/* c#f */
+	color: #fff;
+
+	/* c#0 */
+	color: #000;
+
+	/* bgc#333 */
+	background-color: #333;
+
+	/* poa */
+	position: absolute;
+
+	/* t0 */
+	top: 0;
+
+	/* b20 */
+	bottom: 20px;
+
+	/* w100p */
+	width: 100%;
+
+	/* h300 */
+	height: 300px;
+
+	/* pl10 */
+	padding-left: 10px;
+
+	/* mt40 */
+	margin-top: 40px;
+
+	/* o */
+	overflow: hidden;
+
+	/* cu */
+	cursor: pointer;
+
+	/* tt */
+	text-transform: uppercase;
+
+	/* tac */
+	text-align: center;
+
+	/* dib */
+	display: inline-block;
+
+	/* fwb */
+	font-weight: bold;
+}

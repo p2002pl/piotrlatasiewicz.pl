@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Calibri;
+	font-size: 18px;
+	background-color: rgb(104, 88, 144);
+	transition: 1s;
+}
+.long {
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	padding: 10px;
+	height: 670px;
+	width: 170px;
+	background-color: rgb(255, 46, 46);
+	text-align: center;
+	transition: height 0.6s;
+	overflow: hidden;
+}
+.long:hover {
+	height: 200px;
+}
+.big {
+	position: absolute;
+	top: 150px;
+	right: 150px;
+	height: 600px;
+	width: 800px;
+	background-color: royalblue;
+}
+.child {
+	height: 200px;
+	border: 3px solid black;
+	transition: 1s;
+}
+.first {
+	padding: 80px;
+	text-align: center;
+	font-size: 30px;
+}
+.first + div {
+	background-color: green;
+}
+.first:hover ~ .child {
+	background-color: gold;
+}
+.first:hover {
+	background-color: gold;
+	font-size: 0;
+}
+.third {
+	background-color: rgb(168, 0, 143);
+}

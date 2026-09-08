@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 40px;
+	background-color: royalblue;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 54px;
+	text-transform: uppercase;
+}
+
+p {
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 48px;
+	background-color: lime;
+}

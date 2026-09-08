@@ -1,0 +1,61 @@
+<!-- Stwórz bardzo ładnie wyglądającą i kolorową stronę domową wraz z menu u góry w HTML i CSS.
+
+tło strony ma być zielono-niebiesko-fioletowym gradientem
+
+menu u góry ma mieć pomarańczowo-czerwony gradient pionowy -->
+
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title> Moja strona domowa </title>
+    <style>
+        body {
+            background: linear-gradient(to right, #00f260, #0575e6, #ab05e6);
+            text-align: center;
+        }
+
+        #menu {
+            background: linear-gradient(to top, #ff9a00, #ff2d00);
+            padding: 10px 0px;
+            margin: 0px auto;
+            width: 800px;
+        }
+
+        #menu ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #menu ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 0px 10px;
+        }
+
+        #menu ul li a {
+            color: #000;
+            font-size: 20px;
+            font-family: 'Arial', sans-serif;
+            text-decoration: none;
+        }
+
+        #menu ul li a:hover {
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Moja strona domowa </h1>
+    <div id="menu">
+        <ul>
+            <li><a href="#">Strona główna</a></li>
+            <li><a href="#">O mnie</a></li>
+            <li><a href="#">Moje projekty</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
